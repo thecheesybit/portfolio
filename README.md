@@ -1,8 +1,14 @@
+<<<<<<< HEAD
 
 
 ## Built With
 
 
+=======
+
+## Built With
+
+>>>>>>> aa5b6a06b87b13eaa42e4c2d91270018b5438006
 
 This project was built using these technologies.
 
