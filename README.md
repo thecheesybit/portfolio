@@ -1,4 +1,6 @@
 
+site is live at thecheesybit.in
+
 This project was built using these technologies.
 
 - React.js
