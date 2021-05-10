@@ -1,16 +1,16 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import BlogCard from "./BlogsCards";
+// import BlogCard from "./BlogsCards";
 import Particle from "../Particle";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import algo from "../../Assets/Projects/algo.png";
-import plant from "../../Assets/Projects/plant.jpeg";
+import leaf from "../../Assets/Projects/django.png";
+import emotion from "../../Assets/Projects/fyi.png";
+import editor from "../../Assets/Projects/crypt.png";
+import chatify from "../../Assets/Projects/flutter.png";
+import suicide from "../../Assets/Projects/delta.png";
+// import algo from "../../Assets/Projects/algo.png";
+// import plant from "../../Assets/Projects/plant.jpeg";
 
 function Projects() {
   return (
@@ -28,9 +28,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title="Flutter Chat App"
+              description="Personal Chat Room or Workspace to share resources and hangout with friends build with Flutter, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              link="https://github.com/thecheesybit/chat-app"
             />
           </Col>
 
@@ -38,9 +38,9 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="Django"
+              description="I am trying to make a recursive comment section, using genericForeign keys , now you might wonder why generic well that's just for the sake of practice, I could have just used foreign keys , for more info you can search for importance of genericforeignkeys over foreignkeys"
+              link="https://github.com/thecheesybit/django"
             />
           </Col>
 
@@ -48,9 +48,9 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              title="Crypt"
+              description="Online secure data base App made with Flutter and Firebase that allows user to store data like passwords and links and securely share with other authenticated users "
+              link="https://github.com/thecheesybit/crypt"
             />
           </Col>
 
@@ -58,9 +58,9 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Delta"
+              description="A different kind of app simply made to help me out with day to day chores and supports my well being."
+              link="https://github.com/thecheesybit/delta"
             />
           </Col>
 
@@ -68,14 +68,13 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="FYI VIT Club's App"
+              description="FYI Club of Vit requested me to make a starter APP form them so this simply contains few login and UI design"
+              link="https://github.com/thecheesybit/fyi-flutter-app"
             />
           </Col>
         </Row>
-        <h1 className="project-heading">
+        {/* <h1 className="project-heading">
           My Recent <strong className="purple">Blog </strong> Posts
         </h1>
         <p style={{ color: "white" }}>Do give a read to some of my blogs</p>
@@ -91,12 +90,12 @@ function Projects() {
           <Col md={4} className="blog-card">
             <BlogCard
               imgPath={plant}
-              link="https://medium.com/jovianml/plant-ai-c8fc95ed90e6"
+              link=""
               title="Plant AI"
               site="medium.com"
             />
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </Container>
   );

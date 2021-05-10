@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import axios from "axios";
-import pdf from "../../Assets/Soumyajit-Behera.pdf";
+import pdf from "../../Assets/sample-cv.txt";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
@@ -42,22 +42,22 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="JUNIOR ML ENGINEER [Omdena]"
-              date="June 2020 - August 2020"
+              title="Founder of thechessybit.in"
+              date="June 2018 - August 2020"
               content={[
-                "Assembled the data from various social media platforms using Twitter, Reddit.Interpreted the collected text using word-clouds and various other factors that affect the change of sentiments of youth.",
+                "thecheesybit.in is student chapter developed by native devlopers and students around the country. It was started as an intiative to of learning day to day free lancing tools and skills to be able to show case the talent and even provided free servers for competative gaming and I kind of manged all the core dvelopment task and assembled the data from various social media platforms using Twitter, Reddit.Interpreted the collected text using word-clouds and various other factors that affect the change of sentiments of youth.",
                 " Utilized the data to find the issues using Topic Modelling and Building models using LSTM, BERT to predict the sentiments of the youth.",
               ]}
             />
             <h3 className="resume-title">Extracurricular Activities</h3>
             <Resumecontent
-              title="Web Developer [Pantheon-2019 Technical Fest of BIT Mesra]"
+              title="Senior Student Coordinator [Pantheon-2017/18 Technical Fest of JPS Lucknow]"
               content={[
-                "Worked on creating the frontend-end of the website using Bootstrap, Javascript.",
+                "Corrdinated the whole Event and personally conducted 5 major event including participating in TCS IT Quiz 2017 RANK 3 LKUCKNOW",
               ]}
             />
             <Resumecontent
-              title="Web Developer [Bitotsav-2020 Technical Fest of BIT Mesra]"
+              title="Web Developer [ITWIZFARM-2016/17/18 Technical Fest of JPS Lucknow]"
               content={[
                 "Operated on developing the frontend end of the website using Bootstrap, Javascript and backend APIs using Node.js",
               ]}
@@ -94,7 +94,8 @@ function Resume() {
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={pdf} target="_blank">
-          <AiOutlineDownload />&nbsp;Download CV
+            <AiOutlineDownload />
+            &nbsp;Download CV
           </Button>
         </Row>
       </Container>
