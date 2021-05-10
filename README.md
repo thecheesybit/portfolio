@@ -1,5 +1,5 @@
 
-site is live at thecheesybit.in
+site is live at https://thecheesybit.in
 
 This project was built using these technologies.
 
