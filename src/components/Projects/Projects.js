@@ -11,6 +11,7 @@ import emotion from "../../Assets/Projects/fyi.png";
 import editor from "../../Assets/Projects/crypt.png";
 import chatify from "../../Assets/Projects/flutter.png";
 import suicide from "../../Assets/Projects/delta.png";
+import vc from "../../Assets/Projects/vc.png";
 // import algo from "../../Assets/Projects/algo.png";
 // import plant from "../../Assets/Projects/plant.jpeg";
 
@@ -46,6 +47,16 @@ function Projects() {
               title="cheesy-uno"
               description="UNO is the classic and beloved card game that’s easy to pick up and impossible to put down! Players take turns matching a card in their hand with the current card shown on top of the deck either by color or number. Special action cards deliver game-changing moments as they each perform a function to help you defeat your opponents. These include skips, reverses, draw twos, color-changing wild and draw four wild cards."
               link="https://github.com/thecheesybit/cheesy-uno"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={vc}
+              isBlog={false}
+              title="Cheesy Video Call website"
+              description="Personal Chat Room or Workspace to share resources and hangout with friends build with React, Material-UI, and Firebase. Have features which allows user for realtime video calling."
+              link="https://github.com/thecheesybit/cheesy-videocall"
             />
           </Col>
 
