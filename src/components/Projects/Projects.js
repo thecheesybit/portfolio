@@ -5,6 +5,8 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 import leaf from "../../Assets/Projects/django.png";
+import uno from "../../Assets/Projects/uno.png";
+import chess from "../../Assets/Projects/chess.png";
 import emotion from "../../Assets/Projects/fyi.png";
 import editor from "../../Assets/Projects/crypt.png";
 import chatify from "../../Assets/Projects/flutter.png";
@@ -24,6 +26,29 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chess}
+              isBlog={false}
+              title="Cheesy-chess"
+              description="Multiplayer Chess Game built with React and Node.js + Express.
+              Users can play their friends anonymously via link.
+              Users are also able to chat with each other during the game via camera + microphone.
+              Tech stack: React, webRTC, Node.js, Express, Socket.io"
+              link="https://github.com/thecheesybit/cheesy-chess"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={uno}
+              isBlog={false}
+              title="cheesy-uno"
+              description="UNO is the classic and beloved card game that’s easy to pick up and impossible to put down! Players take turns matching a card in their hand with the current card shown on top of the deck either by color or number. Special action cards deliver game-changing moments as they each perform a function to help you defeat your opponents. These include skips, reverses, draw twos, color-changing wild and draw four wild cards."
+              link="https://github.com/thecheesybit/cheesy-uno"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
