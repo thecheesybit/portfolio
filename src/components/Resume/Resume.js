@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import axios from "axios";
-import pdf from "../../Assets/sample-cv.txt";
+import pdf from "../../Assets/resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
@@ -67,8 +67,8 @@ function Resume() {
             <h3 className="resume-title">Education</h3>
             <Resumecontent
               title="CSE with AI & ML [VIT, Chennai] "
-              date="2019 - Present"
-              content={[`CGPA: 8.2 (Till 4th Sem)`]}
+              date="2019 - 2023"
+              content={[`CGPA: 8.01`]}
             />
             <Resumecontent
               title="12TH BOARD [Jagran Public School, Lucknow]"
