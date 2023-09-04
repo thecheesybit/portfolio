@@ -19,7 +19,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am an Undergrad at  <b className="purple"> VELLORE INSITUTE OF TECHNOLOGY</b>, CHENNAI pursuing B.Tech in <b className="purple">CSE</b> with Specializtion in <b className="purple">AI & ML</b>  
+              Done my B.Tech at <b className="purple"> VELLORE INSITUTE OF TECHNOLOGY</b>, CHENNAI. From <b className="purple">CSE</b> with Specializtion in <b className="purple">AI & ML</b>  
               <br />
               <br />My core Programming Fundamentals are 
               <i>

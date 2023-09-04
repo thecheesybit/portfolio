@@ -8,10 +8,10 @@ function Type() {
         strings: [
           "AWS Cloud Practioner",
           "Full stack Developer",
-          "Mean Stack Developer",
-          "Open Source Contributor",
           "Native App Developer",
           "Programmer",
+          "Now, Course Instructor at Youtube !",
+          "Graduation Simplified 👈 Channel"
         ],
         autoStart: true,
         loop: true,
