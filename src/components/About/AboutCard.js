@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Ayush Kumar </span>
             from <span className="purple"> Lucknow, India.</span>
-            <br />I am 2nd yr. UnderGrad pursuing B.Tech at VITCC. (Computer Science Engineering with Specilaiztion in AI & ML)
+            <br />Done my B.Tech at VITCC. (Computer Science Engineering with Specilaiztion in AI & ML)
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -24,6 +24,9 @@ function AboutCard() {
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Currently Course Instructor at <a href="https://www.youtube.com/channel/UC7xfOi5KvbDVizIETV9tBig">Graduction Simplified</a>
             </li>
           </ul>
 
