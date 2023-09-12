@@ -4,6 +4,8 @@ import ProjectCard from "./ProjectCards";
 // import BlogCard from "./BlogsCards";
 import Particle from "../Particle";
 
+import dsa from "../../Assets/Projects/dsa.png";
+import docker from "../../Assets/Projects/docker.png";
 import leaf from "../../Assets/Projects/django.png";
 import uno from "../../Assets/Projects/uno.png";
 import chess from "../../Assets/Projects/chess.png";
@@ -27,6 +29,26 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dsa}
+              isBlog={false}
+              title="Data Structures Master Class through C/C++"
+              description="The world of coding awaits your mastery on it and with my upcoming master class on Data Structures and Algorithms, presented through the lens of C and C++ you can master it all !"
+              link="https://www.youtube.com/watch?v=E95QfMHfYyQ&list=PLBhkiVMxXjP41gsOkZhx7awUscq59fXjL"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={docker}
+              isBlog={false}
+              title="Docker and Kubernetes master class"
+              description="In this course, you'll master Docker, the game-changing containerization platform that's revolutionizing software development. Whether you're a beginner or an experienced developer, our expert instructors will guide you through every aspect of Docker, from the basics to advanced techniques."
+              link="https://www.youtube.com/watch?v=RywsCNVCIVw&list=PLBhkiVMxXjP5GjDZ6U76WeqMtVeQ5zbBs"
+            />
+          </Col>
+
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chess}
